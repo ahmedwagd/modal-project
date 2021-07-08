@@ -1,0 +1,45 @@
+/* .dark-bakground {
+  display: none;
+} */
+.dark-bakground.active {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #80808070;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+.model {
+  position: relative;
+  background: white;
+  padding: 50px;
+  width: 400px;
+  height: 400px;
+}
+.model span {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.model span:hover {
+  color: rgba(0, 0, 0, 0.59);
+}
+h1 {
+  color: teal;
+}
+p {
+  padding: 10px 20px;
+  color: tomato;
+}
+.dark-bakground.sale .model div h1 {
+  color: blue;
+}
